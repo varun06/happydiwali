@@ -1,0 +1,81 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*WIDTH SETTINGS*/
+.nav-hold,
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*NAVIGATION SETTINGS*/
+.nav-bar {
+    width: 100%;
+    background: #666;
+    height: 4em;
+}
+
+.nav-hold {
+    overflow: hidden;
+}
+
+.nav-logo {
+    float: left;
+    display: block;
+    padding: 10px;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.nav-menu {
+    display: none;
+}
+
+/*CONTAINER*/
+
+.container {
+    padding: 50px 10px 10px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+/*Image*/
+#myImage {
+    width: 60%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+/*Text*/
+#text {
+    font: bold 50px 'Cooper Black', 'Cooper Std', 'Cooper Std Black', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
